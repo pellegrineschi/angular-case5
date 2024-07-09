@@ -1,0 +1,7 @@
+<ul class="list-group">
+    <li *ngFor="let empleados of data" class="list-group-item">
+      {{empleados.id}} - {{empleados.nombre}} {{empleados.apellido}}
+      <button (click)="eliminarEmppleado.emit(empleados.id)" class="btn btn-danger">x</button>
+    </li>
+    
+  </ul>
