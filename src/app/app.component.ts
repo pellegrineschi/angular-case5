@@ -71,5 +71,6 @@ export class AppComponent {
     alert(`accedio al detalle de ${ev.nombre} ${ev.apellido}`)
   }
 }
+//pruebas
 
 
